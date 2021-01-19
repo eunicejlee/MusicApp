@@ -490,3 +490,7 @@ WARNING: Unmatched cancel notification for request id 3613
 2021.01.19 12:43:18 INFO  time: compiled root in 3.55s
 2021.01.19 12:44:47 INFO  compiling root (1 scala source)
 2021.01.19 12:44:50 INFO  time: compiled root in 2.86s
+2021.01.19 13:14:49 INFO  compiling root (1 scala source)
+2021.01.19 13:14:50 INFO  time: compiled root in 1.54s
+2021.01.19 13:15:09 INFO  compiling root (1 scala source)
+2021.01.19 13:15:13 INFO  time: compiled root in 3.57s

@@ -5,6 +5,7 @@ import com.eunice.musicapp.model.Music
 import com.eunice.musicapp.model.MusicPlaylist
 import com.eunice.musicapp.util.ConnectionUtil
 import scala.util.Using
+import com.eunice.musicapp.util.FileUtil
 
 /**
   * Music Data Access Object
