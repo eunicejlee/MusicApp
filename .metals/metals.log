@@ -157,3 +157,336 @@ Waiting for the bsp connection to come up...
 2021.01.18 22:04:22 INFO  time: compiled root in 59ms
 2021.01.18 22:04:22 INFO  compiling root (2 scala sources)
 2021.01.18 22:04:23 INFO  time: compiled root in 0.92s
+2021.01.18 22:13:47 INFO  shutting down Metals
+2021.01.18 22:13:47 INFO  Shut down connection with build server.
+2021.01.18 22:13:48 INFO  Shut down connection with build server.
+2021.01.19 08:26:11 INFO  Started: Metals version 0.9.8 in workspace '/home/eunicelee/project0/musicapp' for client vscode.
+2021.01.19 08:26:13 INFO  time: initialize in 1.32s
+2021.01.19 08:26:15 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8055217279796728957/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.19 08:26:15 WARN  no build target for: /home/eunicelee/project0/musicapp/build.sbt
+2021.01.19 08:26:15 WARN  no build target for: /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/model/Artist.scala
+2021.01.19 08:26:15 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2021.01.19 08:26:22 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Waiting for the bsp connection to come up...
+2021.01.19 08:26:24 WARN  no build target for: /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/ConnectionUtil.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/eunicelee/project0/musicapp/.bloop'...
+[0m[32m[D][0m Loading project from '/home/eunicelee/project0/musicapp/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/home/eunicelee/project0/musicapp/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/eunicelee/project0/musicapp/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8055217279796728957/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8055217279796728957/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.19 08:26:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json
+2021.01.19 08:26:26 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2463196706970339561/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2463196706970339561/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2463196706970339561/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.19 08:26:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json
+2021.01.19 08:26:26 INFO  time: connected to build server in 11s
+2021.01.19 08:26:26 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.19 08:26:26 INFO  time: imported build in 0.19s
+2021.01.19 08:26:28 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.19 08:26:30 INFO  time: indexed workspace in 3.11s
+2021.01.19 08:27:40 INFO  compiling root (1 scala source)
+2021.01.19 08:27:45 INFO  time: compiled root in 4.25s
+Jan 19, 2021 8:28:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Jan 19, 2021 8:28:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+Jan 19, 2021 8:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 343
+Jan 19, 2021 8:30:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 427
+Jan 19, 2021 8:30:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 470
+Jan 19, 2021 8:30:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 474
+Jan 19, 2021 8:30:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 471
+Jan 19, 2021 8:30:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 473
+Jan 19, 2021 8:30:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 478
+Jan 19, 2021 8:30:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 519
+Jan 19, 2021 8:30:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 587
+2021.01.19 08:30:38 INFO  compiling root (1 scala source)
+2021.01.19 08:30:38 INFO  time: compiled root in 0.5s
+2021.01.19 08:31:14 INFO  compiling root (1 scala source)
+2021.01.19 08:31:17 INFO  time: compiled root in 3.71s
+Jan 19, 2021 9:09:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 687
+Jan 19, 2021 9:10:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 711
+Jan 19, 2021 9:10:44 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 9:10:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 720
+Jan 19, 2021 9:11:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 786
+Jan 19, 2021 9:11:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 787
+Jan 19, 2021 9:11:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 830
+Jan 19, 2021 9:12:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1052
+Jan 19, 2021 9:12:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1065
+Jan 19, 2021 9:13:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1213
+2021.01.19 09:13:37 INFO  compiling root (1 scala source)
+2021.01.19 09:13:42 INFO  time: compiled root in 5.14s
+Jan 19, 2021 9:37:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1426
+Jan 19, 2021 9:38:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1510
+2021.01.19 09:38:21 INFO  compiling root (1 scala source)
+2021.01.19 09:38:24 INFO  time: compiled root in 3.07s
+2021.01.19 09:39:34 INFO  compiling root (1 scala source)
+2021.01.19 09:39:34 INFO  time: compiled root in 0.45s
+Jan 19, 2021 9:40:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1681
+Jan 19, 2021 9:42:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1815
+Jan 19, 2021 9:42:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1830
+Jan 19, 2021 9:42:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1834
+2021.01.19 09:42:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:25 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:25 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:27 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:27 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:27 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:27 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:27 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:27 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:28 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:28 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:28 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2021.01.19 09:42:29 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:12:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+            openedFile = Source.fromFile(filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Jan 19, 2021 9:43:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1975
+2021.01.19 09:43:10 INFO  compiling root (1 scala source)
+2021.01.19 09:43:10 INFO  time: compiled root in 0.94s
+2021.01.19 09:43:18 INFO  compiling root (1 scala source)
+2021.01.19 09:43:18 INFO  time: compiled root in 0.33s
+2021.01.19 09:43:29 INFO  compiling root (1 scala source)
+2021.01.19 09:43:29 INFO  time: compiled root in 0.36s
+2021.01.19 09:44:03 INFO  compiling root (1 scala source)
+2021.01.19 09:44:03 INFO  time: compiled root in 0.24s
+2021.01.19 09:44:11 INFO  compiling root (1 scala source)
+2021.01.19 09:44:11 INFO  time: compiled root in 0.28s
+2021.01.19 09:44:36 INFO  compiling root (1 scala source)
+2021.01.19 09:44:36 INFO  time: compiled root in 0.19s
+Jan 19, 2021 9:45:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2213
+2021.01.19 09:45:19 INFO  compiling root (1 scala source)
+2021.01.19 09:45:19 INFO  time: compiled root in 0.22s
+Jan 19, 2021 9:47:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2330
+2021.01.19 09:47:33 INFO  compiling root (1 scala source)
+2021.01.19 09:47:33 INFO  time: compiled root in 0.41s
+2021.01.19 09:48:18 INFO  compiling root (1 scala source)
+2021.01.19 09:48:18 INFO  time: compiled root in 0.41s
+2021.01.19 09:48:42 INFO  compiling root (1 scala source)
+2021.01.19 09:48:42 INFO  time: compiled root in 0.18s
+2021.01.19 09:48:49 INFO  compiling root (1 scala source)
+2021.01.19 09:48:49 INFO  time: compiled root in 0.21s
+Jan 19, 2021 9:48:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2442
+2021.01.19 09:49:29 INFO  compiling root (1 scala source)
+2021.01.19 09:49:29 INFO  time: compiled root in 0.18s
+2021.01.19 09:49:57 INFO  compiling root (1 scala source)
+2021.01.19 09:49:57 INFO  time: compiled root in 0.19s
+2021.01.19 09:50:04 INFO  compiling root (1 scala source)
+2021.01.19 09:50:04 INFO  time: compiled root in 0.18s
+2021.01.19 09:50:10 INFO  compiling root (1 scala source)
+2021.01.19 09:50:10 INFO  time: compiled root in 0.18s
+2021.01.19 09:50:53 INFO  compiling root (1 scala source)
+2021.01.19 09:50:55 INFO  time: compiled root in 1.8s
+Jan 19, 2021 9:50:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2702
+2021.01.19 09:51:07 INFO  compiling root (1 scala source)
+2021.01.19 09:51:09 INFO  time: compiled root in 2.15s
+2021.01.19 09:51:09 INFO  compiling root (1 scala source)
+2021.01.19 09:51:09 INFO  time: compiled root in 0.99s
+Jan 19, 2021 9:52:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2898
+2021.01.19 09:53:05 INFO  compiling root (1 scala source)
+2021.01.19 09:53:09 INFO  time: compiled root in 3.96s
+2021.01.19 09:53:28 INFO  compiling root (1 scala source)
+2021.01.19 09:53:30 INFO  time: compiled root in 2.07s
+Jan 19, 2021 9:53:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3032
+2021.01.19 09:53:42 INFO  compiling root (1 scala source)
+2021.01.19 09:53:42 INFO  time: compiled root in 0.87s
+2021.01.19 09:53:42 INFO  compiling root (1 scala source)
+Jan 19, 2021 9:53:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3051
+2021.01.19 09:53:45 INFO  time: compiled root in 1.97s
+2021.01.19 12:07:32 INFO  compiling root (1 scala source)
+2021.01.19 12:07:36 INFO  time: compiled root in 3.79s
+Jan 19, 2021 12:28:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3167
+Jan 19, 2021 12:28:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3233
+Jan 19, 2021 12:28:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3236
+Jan 19, 2021 12:34:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3288
+Jan 19, 2021 12:35:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3361
+Jan 19, 2021 12:39:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3422
+Jan 19, 2021 12:40:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3556
+Jan 19, 2021 12:41:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3613
+2021.01.19 12:41:56 INFO  compiling root (1 scala source)
+2021.01.19 12:41:56 INFO  Deduplicating compilation of root from bsp client 'Metals 0.9.8' (since 4h 15m 29.595s)
+2021.01.19 12:41:56 INFO  compiling root (1 scala source)
+2021.01.19 12:42:01 INFO  time: compiled root in 4.29s
+2021.01.19 12:42:32 INFO  compiling root (1 scala source)
+2021.01.19 12:42:37 INFO  time: compiled root in 5.34s
+2021.01.19 12:43:14 INFO  compiling root (1 scala source)
+2021.01.19 12:43:18 INFO  time: compiled root in 3.55s
+2021.01.19 12:44:47 INFO  compiling root (1 scala source)
+2021.01.19 12:44:50 INFO  time: compiled root in 2.86s

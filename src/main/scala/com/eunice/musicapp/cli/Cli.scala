@@ -5,6 +5,8 @@ import scala.io.StdIn
 import com.eunice.musicapp.model.Music
 import com.eunice.musicapp.model.MusicPlaylist
 import com.eunice.musicapp.dao.MusicDao
+import com.eunice.musicapp.util.FileUtil
+import java.io.FileNotFoundException
 
 class Cli {
     val commandArgPattern: Regex = "(\\w+)\\s*(.*)".r
@@ -12,18 +14,19 @@ class Cli {
     //prints a greeting message
     def printWelcome(): Unit = {
         val name: String = "Eunice"
-        println(s"Welcome Back, $name")
+        println(s"Welcome Back, $name!")
     }
 
     //prints the commands available to the user
     def printOptions(): Unit = {
-        println("Discover New Music! Please Enter an Option Below.")
-        println("List Music: Lists All Music")
-        println("Search [playlist]: Lists Music by Playlist")
-        println("Add Music: Adds Music to Playlist")
-        println("Delete Music: Deletes Music From Playlist")
-        println("Update Playlist: Moves Music to Another Playlist")
-        println("Exit: Exits Music App CLI")
+        println("*** Discover New Music! Please Enter an Option Below.")
+        println("1. My Library: ")
+        println("2. Search [Playlist]:  ")
+        println("3. Add Music: Adds Music to Playlist")
+        println("4. Delete Music: Deletes Music From Playlist")
+        println("5. Update Playlist: Moves Music to Another Playlist")
+        println("6. Find [filename]: Reads Text from File")
+        println("*** Exit: Exits Music App CLI")
     }
 
     //This is the entrypoint to the Cli class
@@ -39,7 +42,7 @@ class Cli {
             input match {
 
                 case commandArgPattern(cmd, arg) 
-                if cmd.equalsIgnoreCase("list") && arg.equalsIgnoreCase("music") => {
+                if cmd.equalsIgnoreCase("library") => {
                     printAllMusic()
                 }
 
@@ -61,6 +64,11 @@ class Cli {
                 case commandArgPattern(cmd, arg)
                 if cmd.equalsIgnoreCase("update") && arg.equalsIgnoreCase("playlist") => {
                     updatePlaylist()
+                }
+
+                case commandArgPattern(cmd, arg)
+                if cmd.equalsIgnoreCase("find") => {
+                    printText(arg)
                 }
 
                 case commandArgPattern(cmd, arg) 
@@ -133,6 +141,16 @@ class Cli {
             case e: Exception => {
                 println("Something Went Wrong")
             }
+         }
+     }
+
+     def printText(arg: String) = {
+         try {
+             println(FileUtil.getText(arg))
+         } catch {
+             case fnfe: FileNotFoundException => {
+                 println(s"File Not Found: ${fnfe.getMessage}")
+             }
          }
      }
 }
