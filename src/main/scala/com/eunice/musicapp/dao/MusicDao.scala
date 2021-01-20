@@ -55,13 +55,26 @@ import com.eunice.musicapp.util.FileUtil
         * @param musicPlaylist
         * @return add music to a playlist
         */
-      def addMusic(musicPlaylist: MusicPlaylist): Boolean = {
+      def addMusicPlaylist(musicPlaylist: MusicPlaylist): Boolean = {
           val conn = ConnectionUtil.getConnection()
           Using.Manager { use =>
             val stmt = use(conn.prepareStatement
             ("INSERT INTO music_playlist VALUES (DEFAULT,?, ?);"))
             stmt.setString(1, musicPlaylist.musicTitle)
             stmt.setString(2, musicPlaylist.playlistName)
+            stmt.execute()
+            stmt.getUpdateCount() > 0
+        } .getOrElse(false)
+      }
+
+      def addMusic(music: Music): Boolean = {
+          val conn = ConnectionUtil.getConnection()
+          Using.Manager { use =>
+            val stmt = use(conn.prepareStatement
+            ("INSERT INTO music VALUES (?, ?, ?);"))
+            stmt.setString(1, music.musicTitle)
+            stmt.setString(2,music.artistName)
+            stmt.setString(3, music.genreType)
             stmt.execute()
             stmt.getUpdateCount() > 0
         } .getOrElse(false)
@@ -96,7 +109,7 @@ import com.eunice.musicapp.util.FileUtil
           val conn = ConnectionUtil.getConnection()
           Using.Manager { use =>
             val stmt = use(conn.prepareStatement
-            ("DELETE FROM music_playlist WHERE music_id = ?"))
+            ("DELETE FROM music_playlist WHERE mp_id = ?"))
             stmt.setInt(1, musicPlaylist.mpId)
             stmt.execute()
             stmt.getUpdateCount() > 0

@@ -494,3 +494,1228 @@ WARNING: Unmatched cancel notification for request id 3613
 2021.01.19 13:14:50 INFO  time: compiled root in 1.54s
 2021.01.19 13:15:09 INFO  compiling root (1 scala source)
 2021.01.19 13:15:13 INFO  time: compiled root in 3.57s
+2021.01.19 13:16:16 INFO  compiling root (1 scala source)
+2021.01.19 13:16:18 INFO  time: compiled root in 1.84s
+Jan 19, 2021 1:27:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4021
+Jan 19, 2021 1:37:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4121
+2021.01.19 13:38:30 INFO  compiling root (1 scala source)
+2021.01.19 13:38:31 INFO  time: compiled root in 1.1s
+2021.01.19 13:38:50 INFO  compiling root (1 scala source)
+2021.01.19 13:38:50 INFO  time: compiled root in 0.41s
+2021.01.19 13:41:59 INFO  compiling root (1 scala source)
+2021.01.19 13:42:01 INFO  time: compiled root in 2.56s
+2021.01.19 13:42:01 INFO  compiling root (1 scala source)
+2021.01.19 13:42:01 INFO  time: compiled root in 0.56s
+Jan 19, 2021 1:43:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4419
+2021.01.19 13:43:21 INFO  compiling root (1 scala source)
+2021.01.19 13:43:29 INFO  time: compiled root in 7.6s
+2021.01.19 13:44:37 INFO  compiling root (1 scala source)
+2021.01.19 13:44:39 INFO  time: compiled root in 2.16s
+2021.01.19 13:44:39 INFO  compiling root (1 scala source)
+2021.01.19 13:44:40 INFO  time: compiled root in 1.65s
+Jan 19, 2021 1:45:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4698
+Jan 19, 2021 3:34:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4739
+Jan 19, 2021 3:34:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4741
+Jan 19, 2021 3:35:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4937
+Jan 19, 2021 3:40:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5187
+Jan 19, 2021 3:40:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5189
+Jan 19, 2021 3:40:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5242
+Jan 19, 2021 3:40:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5294
+Jan 19, 2021 3:40:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5295
+2021.01.19 15:40:48 INFO  compiling root (1 scala source)
+2021.01.19 15:40:51 INFO  time: compiled root in 2.45s
+Jan 19, 2021 3:42:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5365
+Jan 19, 2021 3:45:29 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Jan 19, 2021 3:46:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 3:46:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Jan 19, 2021 3:46:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 3:46:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Jan 19, 2021 3:46:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 3:46:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Jan 19, 2021 3:46:12 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 3:46:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Jan 19, 2021 3:46:14 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 3:46:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+2021.01.19 15:47:41 INFO  compiling root (1 scala source)
+2021.01.19 15:47:44 INFO  time: compiled root in 2.57s
+Jan 19, 2021 3:48:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5631
+Jan 19, 2021 3:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5789
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 4982, 4982, 4997)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 4982, 4982, 4990)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 4982, 4982, 4991)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 4982, 4982, 4993)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 4982, 4982, 4995)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 4982, 4982, 4995)
+2021.01.19 15:51:20 INFO  compiling root (1 scala source)
+Jan 19, 2021 3:51:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5913
+Jan 19, 2021 3:51:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5914
+2021.01.19 15:51:24 INFO  time: compiled root in 3.62s
+Jan 19, 2021 3:51:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5953
+Jan 19, 2021 3:51:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6024
+Jan 19, 2021 3:52:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6078
+Jan 19, 2021 3:53:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6483
+2021.01.19 15:54:41 INFO  compiling root (1 scala source)
+2021.01.19 15:54:41 INFO  time: compiled root in 0.42s
+2021.01.19 15:55:38 INFO  compiling root (1 scala source)
+2021.01.19 15:55:38 INFO  time: compiled root in 0.37s
+2021.01.19 15:56:01 INFO  compiling root (2 scala sources)
+2021.01.19 15:56:01 INFO  time: compiled root in 0.52s
+Jan 19, 2021 3:56:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6782
+2021.01.19 15:56:16 INFO  compiling root (2 scala sources)
+2021.01.19 15:56:16 INFO  time: compiled root in 0.34s
+2021.01.19 15:56:45 INFO  compiling root (2 scala sources)
+2021.01.19 15:56:45 INFO  time: compiled root in 0.28s
+Jan 19, 2021 3:56:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6926
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6988
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6985
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6987
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6990
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6992
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6994
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7001
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7003
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7005
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7008
+Jan 19, 2021 3:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7010
+2021.01.19 15:57:17 INFO  compiling root (2 scala sources)
+2021.01.19 15:57:17 INFO  time: compiled root in 0.33s
+Jan 19, 2021 3:57:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7064
+2021.01.19 15:57:35 INFO  compiling root (2 scala sources)
+2021.01.19 15:57:35 INFO  time: compiled root in 0.25s
+2021.01.19 15:57:40 INFO  compiling root (2 scala sources)
+2021.01.19 15:57:40 INFO  time: compiled root in 0.28s
+2021.01.19 15:57:45 INFO  compiling root (2 scala sources)
+2021.01.19 15:57:47 INFO  time: compiled root in 2.05s
+2021.01.19 15:59:07 INFO  compiling root (1 scala source)
+2021.01.19 15:59:09 INFO  time: compiled root in 2.42s
+2021.01.19 16:01:40 INFO  compiling root (1 scala source)
+2021.01.19 16:01:40 INFO  time: compiled root in 0.25s
+Exception in thread "pool-4-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2021.01.19 16:02:13 INFO  compiling root (1 scala source)
+2021.01.19 16:02:13 INFO  time: compiled root in 0.43s
+2021.01.19 16:02:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/Driver.scala:9:23: stale bloop error: not found: type Cli
+        val cli = new Cli()
+                      ^^^
+2021.01.19 16:02:24 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/Driver.scala:9:23: stale bloop error: not found: type Cli
+        val cli = new Cli()
+                      ^^^
+2021.01.19 16:07:05 INFO  compiling root (1 scala source)
+2021.01.19 16:07:06 INFO  time: compiled root in 1.13s
+2021.01.19 16:07:33 INFO  compiling root (1 scala source)
+2021.01.19 16:07:35 INFO  time: compiled root in 1.95s
+2021.01.19 16:07:41 INFO  compiling root (1 scala source)
+2021.01.19 16:07:44 INFO  time: compiled root in 2.36s
+2021.01.19 16:07:48 INFO  compiling root (1 scala source)
+2021.01.19 16:07:49 INFO  time: compiled root in 1.09s
+Jan 19, 2021 4:11:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7773
+Jan 19, 2021 4:11:28 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Jan 19, 2021 4:11:28 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Jan 19, 2021 4:11:29 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Jan 19, 2021 4:11:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7854
+Jan 19, 2021 4:11:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7872
+Jan 19, 2021 4:11:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7905
+Jan 19, 2021 4:11:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7919
+Jan 19, 2021 4:11:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7921
+Jan 19, 2021 4:11:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7968
+Jan 19, 2021 4:11:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7970
+Jan 19, 2021 4:12:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7994
+Jan 19, 2021 4:12:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8045
+2021.01.19 16:12:21 INFO  compiling root (1 scala source)
+2021.01.19 16:12:23 INFO  time: compiled root in 2.03s
+2021.01.19 16:12:39 INFO  compiling root (1 scala source)
+2021.01.19 16:12:41 INFO  time: compiled root in 1.93s
+Jan 19, 2021 4:12:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8125
+Jan 19, 2021 4:12:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8166
+2021.01.19 16:13:21 INFO  compiling root (1 scala source)
+2021.01.19 16:13:22 INFO  time: compiled root in 1.71s
+2021.01.19 16:13:32 INFO  compiling root (1 scala source)
+2021.01.19 16:13:35 INFO  time: compiled root in 2.64s
+2021.01.19 16:13:39 INFO  compiling root (1 scala source)
+2021.01.19 16:13:41 INFO  time: compiled root in 2.05s
+Jan 19, 2021 4:13:59 PM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala
+java.nio.file.NoSuchFileException: /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:395)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:89)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:73)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:38)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:37)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:161)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:239)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:199)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:50)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:235)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021.01.19 16:15:03 INFO  compiling root (1 scala source)
+2021.01.19 16:15:03 INFO  time: compiled root in 0.18s
+2021.01.19 16:15:11 INFO  compiling root (1 scala source)
+2021.01.19 16:15:15 INFO  time: compiled root in 3.17s
+2021.01.19 16:16:32 INFO  compiling root (1 scala source)
+2021.01.19 16:16:34 INFO  time: compiled root in 1.86s
+Jan 19, 2021 4:17:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8635
+Jan 19, 2021 4:17:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8675
+2021.01.19 16:17:26 INFO  compiling root (1 scala source)
+2021.01.19 16:17:27 INFO  time: compiled root in 1.12s
+2021.01.19 16:17:43 INFO  compiling root (1 scala source)
+2021.01.19 16:17:44 INFO  time: compiled root in 1.26s
+Jan 19, 2021 4:18:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8860
+2021.01.19 16:18:37 INFO  compiling root (1 scala source)
+2021.01.19 16:18:38 INFO  time: compiled root in 1.41s
+2021.01.19 16:18:45 INFO  compiling root (1 scala source)
+2021.01.19 16:18:45 INFO  time: compiled root in 0.89s
+2021.01.19 16:19:10 INFO  compiling root (1 scala source)
+2021.01.19 16:19:10 INFO  time: compiled root in 0.33s
+2021.01.19 16:19:16 INFO  compiling root (2 scala sources)
+2021.01.19 16:19:16 INFO  time: compiled root in 0.43s
+2021.01.19 16:19:16 INFO  compiling root (2 scala sources)
+2021.01.19 16:19:17 INFO  time: compiled root in 0.57s
+2021.01.19 16:19:29 INFO  compiling root (2 scala sources)
+2021.01.19 16:19:31 INFO  time: compiled root in 2.1s
+Jan 19, 2021 4:22:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9123
+Jan 19, 2021 4:22:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9125
+Jan 19, 2021 4:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9142
+Jan 19, 2021 4:22:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9185
+Jan 19, 2021 4:22:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9297
+2021.01.19 16:22:56 INFO  compiling root (1 scala source)
+2021.01.19 16:22:56 INFO  time: compiled root in 0.92s
+2021.01.19 16:23:33 INFO  compiling root (1 scala source)
+2021.01.19 16:23:33 INFO  time: compiled root in 92ms
+2021.01.19 16:23:39 INFO  compiling root (1 scala source)
+2021.01.19 16:23:39 INFO  time: compiled root in 0.66s
+2021.01.19 16:24:47 INFO  compiling root (1 scala source)
+2021.01.19 16:24:49 INFO  time: compiled root in 2.12s
+2021.01.19 16:25:02 INFO  compiling root (1 scala source)
+2021.01.19 16:25:06 INFO  time: compiled root in 3.71s
+2021.01.19 16:25:53 INFO  compiling root (1 scala source)
+2021.01.19 16:25:54 INFO  time: compiled root in 1.5s
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 280, 280, 301)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 280, 280, 294)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 280, 280, 295)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 280, 280, 297)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 280, 280, 299)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 280, 280, 299)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 280, 280, 299)
+2021.01.19 16:39:39 INFO  compiling root (1 scala source)
+2021.01.19 16:39:41 INFO  time: compiled root in 1.75s
+2021.01.19 16:39:41 INFO  compiling root (1 scala source)
+2021.01.19 16:39:41 INFO  time: compiled root in 0.28s
+Jan 19, 2021 4:39:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9835
+Jan 19, 2021 4:39:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9839
+2021.01.19 16:39:56 INFO  compiling root (1 scala source)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 215, 215, 234)
+2021.01.19 16:39:59 INFO  time: compiled root in 2.86s
+2021.01.19 16:40:15 INFO  compiling root (1 scala source)
+2021.01.19 16:40:15 INFO  time: compiled root in 0.28s
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in scala.collection.mutable.ArrayBuffer[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 215, 215, 234)
+Jan 19, 2021 4:41:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9973
+Jan 19, 2021 4:41:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9996
+2021.01.19 16:41:39 INFO  compiling root (2 scala sources)
+2021.01.19 16:41:39 INFO  time: compiled root in 0.31s
+2021.01.19 16:44:24 INFO  compiling root (2 scala sources)
+2021.01.19 16:44:24 INFO  time: compiled root in 0.27s
+2021.01.19 16:44:34 INFO  compiling root (2 scala sources)
+2021.01.19 16:44:34 INFO  time: compiled root in 0.14s
+2021.01.19 16:47:58 INFO  compiling root (2 scala sources)
+2021.01.19 16:47:58 INFO  time: compiled root in 0.18s
+2021.01.19 16:47:59 INFO  compiling root (2 scala sources)
+2021.01.19 16:47:59 INFO  time: compiled root in 0.13s
+2021.01.19 16:47:59 INFO  compiling root (2 scala sources)
+2021.01.19 16:47:59 INFO  time: compiled root in 0.12s
+2021.01.19 16:47:59 INFO  compiling root (2 scala sources)
+2021.01.19 16:47:59 INFO  time: compiled root in 0.1s
+2021.01.19 16:47:59 INFO  compiling root (2 scala sources)
+2021.01.19 16:48:00 INFO  time: compiled root in 0.4s
+2021.01.19 16:48:00 INFO  compiling root (2 scala sources)
+2021.01.19 16:48:00 INFO  time: compiled root in 0.2s
+2021.01.19 16:48:00 INFO  compiling root (2 scala sources)
+2021.01.19 16:48:00 INFO  time: compiled root in 0.18s
+2021.01.19 16:48:03 INFO  compiling root (2 scala sources)
+2021.01.19 16:48:03 INFO  time: compiled root in 0.13s
+2021.01.19 16:48:37 INFO  compiling root (2 scala sources)
+2021.01.19 16:48:37 INFO  time: compiled root in 0.2s
+Jan 19, 2021 4:48:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10408
+2021.01.19 16:49:05 INFO  compiling root (2 scala sources)
+2021.01.19 16:49:05 INFO  time: compiled root in 83ms
+2021.01.19 16:49:19 INFO  compiling root (2 scala sources)
+2021.01.19 16:49:19 INFO  time: compiled root in 0.23s
+2021.01.19 16:49:35 INFO  compiling root (2 scala sources)
+2021.01.19 16:49:38 INFO  time: compiled root in 3.03s
+Jan 19, 2021 4:50:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10482
+Jan 19, 2021 4:56:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10675
+Jan 19, 2021 4:56:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10676
+Jan 19, 2021 4:56:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10709
+Jan 19, 2021 4:56:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10710
+2021.01.19 16:57:00 INFO  compiling root (1 scala source)
+2021.01.19 16:57:00 INFO  time: compiled root in 0.44s
+2021.01.19 16:58:00 INFO  compiling root (1 scala source)
+2021.01.19 16:58:00 INFO  time: compiled root in 0.29s
+2021.01.19 16:58:23 INFO  compiling root (1 scala source)
+2021.01.19 16:58:23 INFO  time: compiled root in 0.32s
+2021.01.19 16:58:28 INFO  compiling root (1 scala source)
+2021.01.19 16:58:28 INFO  time: compiled root in 0.23s
+2021.01.19 16:58:40 INFO  compiling root (1 scala source)
+2021.01.19 16:58:40 INFO  time: compiled root in 0.1s
+2021.01.19 16:58:44 INFO  compiling root (1 scala source)
+2021.01.19 16:58:44 INFO  time: compiled root in 0.26s
+2021.01.19 16:59:02 INFO  compiling root (1 scala source)
+2021.01.19 16:59:07 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 16:59:07 INFO  time: compiled root in 5.86s
+2021.01.19 17:00:33 INFO  compiling root (1 scala source)
+2021.01.19 17:00:34 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:00:34 INFO  time: compiled root in 1.19s
+2021.01.19 17:01:15 INFO  compiling root (1 scala source)
+2021.01.19 17:01:20 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:01:20 INFO  time: compiled root in 5.73s
+Jan 19, 2021 5:02:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11195
+2021.01.19 17:02:40 INFO  compiling root (1 scala source)
+2021.01.19 17:02:41 INFO  time: compiled root in 1.11s
+Jan 19, 2021 5:10:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11467
+Jan 19, 2021 5:10:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11469
+2021.01.19 17:10:45 INFO  compiling root (1 scala source)
+2021.01.19 17:10:47 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:10:47 INFO  time: compiled root in 1.24s
+2021.01.19 17:10:47 INFO  compiling root (1 scala source)
+2021.01.19 17:10:48 INFO  time: compiled root in 1.57s
+2021.01.19 17:25:57 INFO  compiling root (1 scala source)
+2021.01.19 17:26:00 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:26:00 INFO  time: compiled root in 2.92s
+2021.01.19 17:26:35 INFO  compiling root (1 scala source)
+2021.01.19 17:26:37 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:26:37 INFO  time: compiled root in 1.77s
+2021.01.19 17:26:55 INFO  compiling root (1 scala source)
+2021.01.19 17:26:55 INFO  time: compiled root in 0.91s
+Jan 19, 2021 5:26:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11651
+2021.01.19 17:27:20 INFO  compiling root (1 scala source)
+2021.01.19 17:27:22 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:27:22 INFO  time: compiled root in 1.88s
+2021.01.19 17:27:22 INFO  compiling root (1 scala source)
+2021.01.19 17:27:22 INFO  time: compiled root in 0.53s
+Jan 19, 2021 5:29:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11864
+Jan 19, 2021 5:29:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11980
+2021.01.19 17:30:46 INFO  compiling root (1 scala source)
+2021.01.19 17:30:48 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:30:48 INFO  time: compiled root in 1.64s
+Jan 19, 2021 5:31:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12211
+Jan 19, 2021 5:32:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 5:32:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+java.lang.ClassCastException: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:2010)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:147)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:275)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:274)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:362)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:362)
+	at scala.Option$WithFilter.map(Option.scala:319)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:274)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Jan 19, 2021 5:32:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 5:32:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+java.lang.ClassCastException: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:2010)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:147)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:275)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:274)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:362)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:362)
+	at scala.Option$WithFilter.map(Option.scala:319)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:274)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Jan 19, 2021 5:32:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 5:32:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+java.lang.ClassCastException: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:2010)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:147)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:275)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:274)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:362)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:362)
+	at scala.Option$WithFilter.map(Option.scala:319)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:274)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Jan 19, 2021 5:32:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 19, 2021 5:32:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+java.lang.ClassCastException: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:2010)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:147)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:275)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:274)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:362)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:362)
+	at scala.Option$WithFilter.map(Option.scala:319)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:274)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Jan 19, 2021 5:32:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12346
+Jan 19, 2021 5:32:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.ClassCastException
+
+Jan 19, 2021 5:32:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.ClassCastException
+
+Jan 19, 2021 5:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12352
+Jan 19, 2021 5:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12355
+Jan 19, 2021 5:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12351
+Jan 19, 2021 5:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12360
+Jan 19, 2021 5:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12361
+Jan 19, 2021 5:32:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12364
+Jan 19, 2021 5:32:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12371
+Jan 19, 2021 5:32:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12366
+2021.01.19 17:32:59 INFO  compiling root (1 scala source)
+2021.01.19 17:33:01 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:33:01 INFO  time: compiled root in 2.29s
+2021.01.19 17:33:38 INFO  compiling root (1 scala source)
+2021.01.19 17:33:38 INFO  time: compiled root in 0.38s
+2021.01.19 17:33:58 INFO  compiling root (1 scala source)
+2021.01.19 17:33:58 INFO  time: compiled root in 0.23s
+2021.01.19 17:34:13 INFO  compiling root (1 scala source)
+2021.01.19 17:34:15 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:34:15 INFO  time: compiled root in 1.26s
+2021.01.19 17:34:16 INFO  compiling root (1 scala source)
+2021.01.19 17:34:18 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:34:18 INFO  time: compiled root in 1.15s
+2021.01.19 17:35:11 INFO  compiling root (1 scala source)
+2021.01.19 17:35:12 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:35:12 INFO  time: compiled root in 1.12s
+2021.01.19 17:35:56 INFO  compiling root (1 scala source)
+2021.01.19 17:35:58 INFO  time: compiled root in 2.04s
+2021.01.19 17:36:55 INFO  compiling root (1 scala source)
+2021.01.19 17:36:56 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:36:56 INFO  time: compiled root in 1.08s
+2021.01.19 17:38:38 INFO  compiling root (1 scala source)
+2021.01.19 17:38:40 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:38:40 INFO  time: compiled root in 2.04s
+2021.01.19 17:38:56 INFO  compiling root (1 scala source)
+2021.01.19 17:38:57 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:38:57 INFO  time: compiled root in 1.26s
+2021.01.19 17:41:04 INFO  compiling root (1 scala source)
+2021.01.19 17:41:06 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 17:41:06 INFO  time: compiled root in 1.51s
+Jan 19, 2021 5:46:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13165
+Jan 19, 2021 5:46:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13167
+2021.01.19 17:46:56 INFO  compiling root (1 scala source)
+2021.01.19 17:46:56 INFO  time: compiled root in 0.14s
+2021.01.19 17:47:13 INFO  compiling root (1 scala source)
+2021.01.19 17:47:13 INFO  time: compiled root in 89ms
+2021.01.19 17:47:16 INFO  compiling root (1 scala source)
+2021.01.19 17:47:18 INFO  time: compiled root in 1.22s
+2021.01.19 17:47:32 INFO  compiling root (1 scala source)
+2021.01.19 17:47:32 INFO  time: compiled root in 0.16s
+2021.01.19 17:47:46 INFO  compiling root (1 scala source)
+2021.01.19 17:47:46 INFO  time: compiled root in 62ms
+2021.01.19 17:47:51 INFO  compiling root (1 scala source)
+2021.01.19 17:47:52 INFO  time: compiled root in 1.02s
+2021.01.19 17:49:07 INFO  compiling root (1 scala source)
+2021.01.19 17:49:07 INFO  time: compiled root in 0.14s
+2021.01.19 17:49:14 INFO  compiling root (1 scala source)
+2021.01.19 17:49:14 INFO  time: compiled root in 0.2s
+2021.01.19 17:49:14 INFO  compiling root (1 scala source)
+2021.01.19 17:49:14 INFO  time: compiled root in 59ms
+Jan 19, 2021 5:49:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13434
+2021.01.19 17:49:50 INFO  compiling root (1 scala source)
+2021.01.19 17:49:50 INFO  time: compiled root in 78ms
+2021.01.19 17:50:04 INFO  compiling root (1 scala source)
+2021.01.19 17:50:04 INFO  time: compiled root in 0.12s
+2021.01.19 17:50:22 INFO  compiling root (1 scala source)
+2021.01.19 17:50:22 INFO  time: compiled root in 0.11s
+2021.01.19 17:50:30 INFO  compiling root (1 scala source)
+2021.01.19 17:50:30 INFO  time: compiled root in 0.14s
+2021.01.19 17:50:39 INFO  compiling root (1 scala source)
+2021.01.19 17:50:39 INFO  time: compiled root in 0.64s
+2021.01.19 17:50:39 INFO  compiling root (1 scala source)
+2021.01.19 17:50:40 INFO  time: compiled root in 0.55s
+Jan 19, 2021 5:51:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13573
+2021.01.19 17:51:09 INFO  compiling root (1 scala source)
+2021.01.19 17:51:09 INFO  time: compiled root in 0.12s
+2021.01.19 18:38:37 INFO  compiling root (1 scala source)
+2021.01.19 18:38:37 INFO  time: compiled root in 0.26s
+Exception in thread "pool-4-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2021.01.19 18:41:44 INFO  compiling root (1 scala source)
+2021.01.19 18:41:44 INFO  time: compiled root in 0.17s
+2021.01.19 18:41:49 INFO  compiling root (1 scala source)
+2021.01.19 18:41:49 INFO  time: compiled root in 0.17s
+Jan 19, 2021 6:44:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13913
+2021.01.19 18:44:07 INFO  compiling root (1 scala source)
+2021.01.19 18:44:07 INFO  time: compiled root in 0.24s
+2021.01.19 18:44:14 INFO  compiling root (1 scala source)
+2021.01.19 18:44:14 INFO  time: compiled root in 0.22s
+Jan 19, 2021 6:44:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14018
+Jan 19, 2021 6:44:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14015
+2021.01.19 18:44:51 INFO  compiling root (1 scala source)
+2021.01.19 18:44:51 INFO  time: compiled root in 0.13s
+Jan 19, 2021 6:44:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14041
+Jan 19, 2021 6:44:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14042
+2021.01.19 18:45:00 INFO  compiling root (1 scala source)
+2021.01.19 18:45:01 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 18:45:01 INFO  time: compiled root in 1.17s
+2021.01.19 18:45:01 INFO  compiling root (1 scala source)
+2021.01.19 18:45:02 INFO  time: compiled root in 0.96s
+Jan 19, 2021 6:47:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14062
+Jan 19, 2021 6:47:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14090
+Jan 19, 2021 6:47:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14089
+Jan 19, 2021 6:47:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14108
+2021.01.19 18:47:56 INFO  compiling root (1 scala source)
+2021.01.19 18:47:56 INFO  time: compiled root in 0.37s
+Jan 19, 2021 6:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14167
+Jan 19, 2021 6:49:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14184
+2021.01.19 18:50:50 INFO  compiling root (1 scala source)
+2021.01.19 18:50:50 INFO  time: compiled root in 93ms
+2021.01.19 18:50:55 INFO  compiling root (1 scala source)
+2021.01.19 18:50:55 INFO  time: compiled root in 0.17s
+2021.01.19 18:51:48 INFO  compiling root (1 scala source)
+2021.01.19 18:51:48 INFO  time: compiled root in 0.17s
+2021.01.19 18:51:52 INFO  compiling root (1 scala source)
+2021.01.19 18:51:52 INFO  time: compiled root in 0.84s
+2021.01.19 18:51:52 INFO  compiling root (1 scala source)
+2021.01.19 18:51:54 INFO  time: compiled root in 0.76s
+2021.01.19 18:52:09 INFO  compiling root (1 scala source)
+2021.01.19 18:52:09 INFO  time: compiled root in 0.75s
+2021.01.19 18:52:09 INFO  compiling root (1 scala source)
+2021.01.19 18:52:11 INFO  time: compiled root in 0.4s
+2021.01.19 18:52:29 INFO  compiling root (1 scala source)
+2021.01.19 18:52:29 INFO  time: compiled root in 88ms
+2021.01.19 18:53:18 INFO  compiling root (1 scala source)
+2021.01.19 18:53:24 INFO  time: compiled root in 5.97s
+Jan 19, 2021 6:54:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14487
+2021.01.19 18:54:18 INFO  compiling root (1 scala source)
+2021.01.19 18:54:18 INFO  time: compiled root in 0.18s
+2021.01.19 18:54:22 INFO  compiling root (1 scala source)
+2021.01.19 18:54:22 INFO  time: compiled root in 0.11s
+2021.01.19 18:54:24 INFO  compiling root (1 scala source)
+2021.01.19 18:54:24 INFO  time: compiled root in 0.99s
+2021.01.19 18:54:24 INFO  compiling root (1 scala source)
+2021.01.19 18:54:26 INFO  time: compiled root in 0.63s
+2021.01.19 18:55:33 INFO  compiling root (1 scala source)
+2021.01.19 18:55:33 INFO  time: compiled root in 99ms
+2021.01.19 18:56:00 INFO  compiling root (1 scala source)
+2021.01.19 18:56:00 INFO  time: compiled root in 0.13s
+2021.01.19 18:56:10 INFO  compiling root (1 scala source)
+2021.01.19 18:56:10 INFO  time: compiled root in 0.15s
+2021.01.19 18:56:16 INFO  compiling root (1 scala source)
+2021.01.19 18:56:16 INFO  time: compiled root in 0.19s
+2021.01.19 18:56:20 INFO  compiling root (1 scala source)
+2021.01.19 18:56:20 INFO  time: compiled root in 0.16s
+2021.01.19 18:56:27 INFO  compiling root (1 scala source)
+2021.01.19 18:56:29 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 18:56:29 INFO  time: compiled root in 2.38s
+2021.01.19 18:56:29 INFO  compiling root (1 scala source)
+2021.01.19 18:56:29 INFO  time: compiled root in 0.39s
+2021.01.19 18:57:48 INFO  compiling root (1 scala source)
+2021.01.19 18:57:48 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 18:57:48 INFO  time: compiled root in 0.73s
+Jan 19, 2021 6:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14820
+2021.01.19 18:58:09 INFO  compiling root (1 scala source)
+2021.01.19 18:58:09 INFO  time: compiled root in 0.33s
+Jan 19, 2021 6:58:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14850
+2021.01.19 18:58:11 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:40: stale bloop error: value | is not a member of String
+                println(s"${cols(0)}|${cols(1)|${cols(2)}}")
+                                       ^^^^^^^^
+2021.01.19 18:58:11 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:48: stale bloop error: not found: value $
+                println(s"${cols(0)}|${cols(1)|${cols(2)}}")
+                                               ^
+2021.01.19 18:58:11 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:40: stale bloop error: value | is not a member of String
+                println(s"${cols(0)}|${cols(1)|${cols(2)}}")
+                                       ^^^^^^^^
+2021.01.19 18:58:11 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:48: stale bloop error: not found: value $
+                println(s"${cols(0)}|${cols(1)|${cols(2)}}")
+                                               ^
+2021.01.19 18:58:11 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:40: stale bloop error: value | is not a member of String
+                println(s"${cols(0)}|${cols(1)|${cols(2)}}")
+                                       ^^^^^^^^
+2021.01.19 18:58:11 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:48: stale bloop error: not found: value $
+                println(s"${cols(0)}|${cols(1)|${cols(2)}}")
+                                               ^
+2021.01.19 18:58:11 INFO  compiling root (1 scala source)
+2021.01.19 18:58:11 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:59: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}})
+                                                          ^
+2021.01.19 18:58:11 INFO  time: compiled root in 89ms
+2021.01.19 18:58:12 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:59: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}})
+                                                          ^
+2021.01.19 18:58:12 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:59: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}})
+                                                          ^
+2021.01.19 18:58:12 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:59: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}})
+                                                          ^
+2021.01.19 18:58:13 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:59: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}})
+                                                          ^
+2021.01.19 18:58:13 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:59: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}})
+                                                          ^
+2021.01.19 18:58:14 INFO  compiling root (1 scala source)
+2021.01.19 18:58:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:58:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:58:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:58:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: ';' expected but string literal found.
+                println(s"${cols(0)}|${cols(1)|${cols(2)}"")
+                                                         ^
+2021.01.19 18:58:14 INFO  time: compiled root in 85ms
+2021.01.19 18:58:15 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:58:15 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:58:15 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: ';' expected but string literal found.
+                println(s"${cols(0)}|${cols(1)|${cols(2)}"")
+                                                         ^
+2021.01.19 18:58:15 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:58:15 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:58:15 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: ';' expected but string literal found.
+                println(s"${cols(0)}|${cols(1)|${cols(2)}"")
+                                                         ^
+2021.01.19 18:58:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:58:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:58:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: ';' expected but string literal found.
+                println(s"${cols(0)}|${cols(1)|${cols(2)}"")
+                                                         ^
+2021.01.19 18:58:16 INFO  compiling root (1 scala source)
+2021.01.19 18:58:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:58:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:58:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:58:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:58:16 INFO  time: compiled root in 84ms
+2021.01.19 18:58:37 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:58:37 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:58:37 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:58:37 INFO  compiling root (1 scala source)
+2021.01.19 18:58:37 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:58:37 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:58:37 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:58:37 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:58:37 INFO  time: compiled root in 82ms
+2021.01.19 18:59:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:14 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:16 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:17 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:17 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:17 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:17 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:17 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:17 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:18 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:18 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:18 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:18 INFO  compiling root (1 scala source)
+2021.01.19 18:59:18 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:18 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:18 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:18 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:18 INFO  time: compiled root in 84ms
+2021.01.19 18:59:20 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:20 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:20 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:20 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:20 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:20 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:32 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:32 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:32 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:32 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:32 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:32 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:34 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:34 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:34 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:34 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:34 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:34 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:36 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:36 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:36 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:36 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:15:58: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)|${cols(2)}")
+                                                         ^
+2021.01.19 18:59:36 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:16:18: stale bloop error: unclosed string literal
+                }
+                 ^
+2021.01.19 18:59:36 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala:14:17: stale bloop error: Missing closing brace `}` assumed here
+                val cols = line.split(",").map(_.trim)
+                ^
+2021.01.19 18:59:36 INFO  compiling root (1 scala source)
+2021.01.19 18:59:37 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 18:59:37 INFO  time: compiled root in 1.05s
+Jan 19, 2021 7:00:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15015
+Jan 19, 2021 7:00:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15036
+Jan 19, 2021 7:01:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15267
+2021.01.19 19:01:45 INFO  compiling root (1 scala source)
+2021.01.19 19:01:45 INFO  time: compiled root in 75ms
+2021.01.19 19:01:52 INFO  compiling root (1 scala source)
+2021.01.19 19:01:53 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 19:01:53 INFO  time: compiled root in 1.05s
+2021.01.19 19:02:34 INFO  compiling root (1 scala source)
+2021.01.19 19:02:34 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 19:02:34 INFO  time: compiled root in 0.99s
+2021.01.19 19:03:14 INFO  compiling root (1 scala source)
+2021.01.19 19:03:14 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 19:03:15 INFO  time: compiled root in 1.01s
+Exception in thread "pool-4-thread-3" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2021.01.19 19:04:19 INFO  compiling root (1 scala source)
+2021.01.19 19:04:21 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 19:04:21 INFO  time: compiled root in 1.45s
+2021.01.19 19:05:51 INFO  compiling root (1 scala source)
+2021.01.19 19:05:51 INFO  time: compiled root in 71ms
+2021.01.19 19:05:54 INFO  compiling root (1 scala source)
+2021.01.19 19:05:54 INFO  time: compiled root in 0.13s
+2021.01.19 19:06:32 INFO  compiling root (1 scala source)
+2021.01.19 19:06:32 INFO  time: compiled root in 0.12s
+2021.01.19 19:11:03 INFO  compiling root (1 scala source)
+2021.01.19 19:11:05 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 19:11:05 INFO  time: compiled root in 1.83s
+Jan 19, 2021 7:16:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15928
+2021.01.19 19:16:54 INFO  compiling root (1 scala source)
+2021.01.19 19:16:54 INFO  time: compiled root in 0.62s
+2021.01.19 19:17:04 INFO  compiling root (1 scala source)
+2021.01.19 19:17:04 INFO  time: compiled root in 0.21s
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 297, 297, 309)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 297, 297, 309)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 297, 297, 309)
+2021.01.19 19:17:11 INFO  compiling root (1 scala source)
+2021.01.19 19:17:11 INFO  time: compiled root in 0.25s
+2021.01.19 19:17:15 INFO  compiling root (1 scala source)
+2021.01.19 19:17:15 INFO  time: compiled root in 0.19s
+2021.01.19 19:17:18 INFO  compiling root (1 scala source)
+2021.01.19 19:17:18 INFO  time: compiled root in 0.14s
+2021.01.19 19:17:23 INFO  compiling root (1 scala source)
+2021.01.19 19:17:23 INFO  time: compiled root in 0.13s
+Jan 19, 2021 7:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16293
+2021.01.19 19:18:19 INFO  compiling root (1 scala source)
+2021.01.19 19:18:19 INFO  time: compiled root in 0.11s
+2021.01.19 19:18:23 INFO  compiling root (1 scala source)
+2021.01.19 19:18:23 INFO  time: compiled root in 0.18s
+2021.01.19 19:18:32 INFO  compiling root (1 scala source)
+2021.01.19 19:18:32 INFO  time: compiled root in 0.18s
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 339, 339, 352)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 339, 339, 352)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/util/FileUtil.scala, 339, 339, 352)
+2021.01.19 19:19:01 INFO  compiling root (1 scala source)
+2021.01.19 19:19:01 INFO  time: compiled root in 0.14s
+2021.01.19 19:19:20 INFO  compiling root (1 scala source)
+2021.01.19 19:19:20 INFO  time: compiled root in 92ms
+2021.01.19 19:19:36 INFO  compiling root (1 scala source)
+2021.01.19 19:19:36 INFO  time: compiled root in 0.2s
+2021.01.19 19:19:54 INFO  compiling root (1 scala source)
+2021.01.19 19:19:54 INFO  time: compiled root in 0.23s
+2021.01.19 19:20:58 INFO  compiling root (1 scala source)
+2021.01.19 19:20:58 INFO  time: compiled root in 0.51s
+2021.01.19 19:21:33 INFO  compiling root (1 scala source)
+2021.01.19 19:21:33 INFO  time: compiled root in 0.2s
+2021.01.19 19:21:49 INFO  compiling root (1 scala source)
+2021.01.19 19:21:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 19:21:51 INFO  time: compiled root in 1.95s
+2021.01.19 19:21:51 INFO  compiling root (1 scala source)
+2021.01.19 19:21:53 INFO  time: compiled root in 1.83s
+2021.01.19 19:22:22 INFO  compiling root (1 scala source)
+2021.01.19 19:22:22 INFO  time: compiled root in 0.96s
+2021.01.19 19:22:22 INFO  compiling root (1 scala source)
+2021.01.19 19:22:23 INFO  time: compiled root in 0.77s
+Jan 19, 2021 7:24:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16710
+2021.01.19 19:24:17 INFO  compiling root (1 scala source)
+2021.01.19 19:24:19 INFO  time: compiled root in 1.51s
+2021.01.19 19:25:27 INFO  compiling root (1 scala source)
+2021.01.19 19:25:29 INFO  time: compiled root in 1.65s
+Jan 19, 2021 7:25:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16930
+2021.01.19 19:26:08 INFO  compiling root (1 scala source)
+2021.01.19 19:26:09 INFO  time: compiled root in 1.16s
+Jan 19, 2021 7:26:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17005
+Jan 19, 2021 7:26:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17007
+Jan 19, 2021 7:27:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17075
+Jan 19, 2021 7:28:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17216
+2021.01.19 19:29:02 INFO  compiling root (1 scala source)
+2021.01.19 19:29:02 INFO  time: compiled root in 0.12s
+2021.01.19 19:29:10 INFO  compiling root (1 scala source)
+2021.01.19 19:29:10 INFO  time: compiled root in 0.13s
+Jan 19, 2021 7:29:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17354
+Jan 19, 2021 7:29:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17356
+Jan 19, 2021 7:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17369
+2021.01.19 19:29:35 INFO  compiling root (1 scala source)
+2021.01.19 19:29:35 INFO  time: compiled root in 0.14s
+2021.01.19 19:30:03 INFO  compiling root (1 scala source)
+2021.01.19 19:30:03 INFO  time: compiled root in 0.16s
+2021.01.19 19:30:08 INFO  compiling root (1 scala source)
+2021.01.19 19:30:08 INFO  time: compiled root in 0.17s
+2021.01.19 19:30:54 INFO  compiling root (1 scala source)
+2021.01.19 19:30:54 INFO  time: compiled root in 0.1s
+2021.01.19 19:31:43 INFO  compiling root (1 scala source)
+2021.01.19 19:31:43 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.19 19:31:43 INFO  time: compiled root in 0.85s
+2021.01.19 19:31:43 INFO  compiling root (1 scala source)
+2021.01.19 19:31:44 INFO  time: compiled root in 0.52s
+2021.01.19 19:32:08 INFO  compiling root (1 scala source)
+2021.01.19 19:32:08 INFO  time: compiled root in 0.14s
+2021.01.19 19:32:13 INFO  compiling root (1 scala source)
+2021.01.19 19:32:13 INFO  time: compiled root in 0.13s
+Jan 19, 2021 7:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17635
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5371, 5371, 5386)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5371, 5371, 5379)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5371, 5371, 5381)
+Jan 19, 2021 7:32:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17725
+Jan 19, 2021 7:32:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17724
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5371, 5371, 5382)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5371, 5371, 5383)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5371, 5371, 5384)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5371, 5371, 5384)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5371, 5371, 5384)
+Jan 19, 2021 7:33:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17798
+Jan 19, 2021 7:33:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17874
+Jan 19, 2021 7:33:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17936
+Jan 19, 2021 7:33:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18000
+Jan 19, 2021 7:34:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18075
+2021.01.19 19:36:14 INFO  compiling root (1 scala source)
+2021.01.19 19:36:14 INFO  time: compiled root in 0.12s
+2021.01.19 19:36:32 INFO  compiling root (1 scala source)
+2021.01.19 19:36:32 INFO  time: compiled root in 0.11s
+2021.01.19 19:36:46 INFO  compiling root (1 scala source)
+2021.01.19 19:36:46 INFO  time: compiled root in 87ms
+Jan 19, 2021 7:36:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18531
+2021.01.19 19:37:16 INFO  compiling root (1 scala source)
+2021.01.19 19:37:16 INFO  time: compiled root in 0.14s
+2021.01.19 19:37:38 INFO  compiling root (1 scala source)
+2021.01.19 19:37:38 INFO  time: compiled root in 97ms
+2021.01.19 19:38:33 INFO  compiling root (1 scala source)
+2021.01.19 19:38:33 INFO  time: compiled root in 84ms
+2021.01.19 19:38:40 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala:176:19: stale bloop error: Missing closing brace `}` assumed here
+                  toTable = true
+                  ^
+2021.01.19 19:38:40 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala:177:17: stale bloop error: ')' expected but '}' found.
+                } else {
+                ^
+2021.01.19 19:38:40 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala:177:19: stale bloop error: ';' expected but 'else' found.
+                } else {
+                  ^
+2021.01.19 19:38:40 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala:181:8: stale bloop error: ';' expected but 'catch' found.
+     } catch {
+       ^
+2021.01.19 19:38:40 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala:176:19: stale bloop error: Missing closing brace `}` assumed here
+                  toTable = true
+                  ^
+2021.01.19 19:38:40 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala:177:17: stale bloop error: ')' expected but '}' found.
+                } else {
+                ^
+2021.01.19 19:38:40 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala:177:19: stale bloop error: ';' expected but 'else' found.
+                } else {
+                  ^
+2021.01.19 19:38:40 INFO  /home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala:181:8: stale bloop error: ';' expected but 'catch' found.
+     } catch {
+       ^
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5374, 5374, 5389)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5374, 5374, 5382)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5374, 5374, 5383)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5374, 5374, 5385)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[<error>]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5374, 5374, 5386)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5374, 5374, 5387)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5374, 5374, 5387)
+something's wrong: no file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala in Array[String]RangePosition(file:///home/eunicelee/project0/musicapp/src/main/scala/com/eunice/musicapp/cli/Cli.scala, 5374, 5374, 5387)
+Jan 19, 2021 7:39:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18961
+2021.01.19 19:40:50 INFO  compiling root (1 scala source)
+2021.01.19 19:40:50 INFO  time: compiled root in 0.11s
+2021.01.19 19:40:56 INFO  compiling root (1 scala source)
+2021.01.19 19:40:56 INFO  time: compiled root in 0.11s
+2021.01.19 19:41:08 INFO  compiling root (1 scala source)
+2021.01.19 19:41:08 INFO  time: compiled root in 0.12s
+2021.01.19 19:41:11 INFO  compiling root (1 scala source)
+2021.01.19 19:41:11 INFO  time: compiled root in 0.11s
+2021.01.19 19:41:13 INFO  compiling root (1 scala source)
+2021.01.19 19:41:13 INFO  time: compiled root in 95ms
+2021.01.19 19:41:35 INFO  compiling root (1 scala source)
+2021.01.19 19:41:35 INFO  time: compiled root in 80ms
+2021.01.19 19:41:44 INFO  compiling root (1 scala source)
+2021.01.19 19:41:44 INFO  time: compiled root in 0.17s
+2021.01.19 19:41:57 INFO  compiling root (1 scala source)
+2021.01.19 19:41:57 INFO  time: compiled root in 0.28s
+2021.01.19 19:42:01 INFO  compiling root (1 scala source)
+2021.01.19 19:42:01 INFO  time: compiled root in 0.26s
+2021.01.19 19:42:55 INFO  compiling root (1 scala source)
+2021.01.19 19:42:59 INFO  time: compiled root in 3.85s
+2021.01.19 19:43:45 INFO  compiling root (1 scala source)
+2021.01.19 19:43:47 INFO  time: compiled root in 1.42s
+2021.01.19 19:45:33 INFO  compiling root (1 scala source)
+2021.01.19 19:45:34 INFO  time: compiled root in 1.66s
+Jan 19, 2021 7:47:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19777
+2021.01.19 19:49:25 INFO  compiling root (1 scala source)
+2021.01.19 19:49:27 INFO  time: compiled root in 1.54s
+2021.01.19 19:49:30 INFO  compiling root (1 scala source)
+2021.01.19 19:49:32 INFO  time: compiled root in 1.64s

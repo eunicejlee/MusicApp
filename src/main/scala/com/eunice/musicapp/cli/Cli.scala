@@ -7,6 +7,7 @@ import com.eunice.musicapp.model.MusicPlaylist
 import com.eunice.musicapp.dao.MusicDao
 import com.eunice.musicapp.util.FileUtil
 import java.io.FileNotFoundException
+import scala.collection.mutable.ArrayBuffer
 
 class Cli {
     val commandArgPattern: Regex = "(\\w+)\\s*(.*)".r
@@ -20,12 +21,13 @@ class Cli {
     //prints the commands available to the user
     def printOptions(): Unit = {
         println("*** Discover New Music! Please Enter an Option Below.")
-        println("1. My Library: ")
+        println("1. Go To My Library: ")
         println("2. Search [Playlist]:  ")
         println("3. Add Music: Adds Music to Playlist")
         println("4. Delete Music: Deletes Music From Playlist")
         println("5. Update Playlist: Moves Music to Another Playlist")
-        println("6. Find [filename]: Reads Text from File")
+        println("6. Read [filename]: Reads Text from File")
+        println("7. Store [filename]: Stores to Database")
         println("*** Exit: Exits Music App CLI")
     }
 
@@ -42,7 +44,7 @@ class Cli {
             input match {
 
                 case commandArgPattern(cmd, arg) 
-                if cmd.equalsIgnoreCase("library") => {
+                if cmd.equalsIgnoreCase("go") => {
                     printAllMusic()
                 }
 
@@ -67,14 +69,24 @@ class Cli {
                 }
 
                 case commandArgPattern(cmd, arg)
-                if cmd.equalsIgnoreCase("find") => {
-                    printText(arg)
+                if cmd.equalsIgnoreCase("read") => {
+                    readText(arg)
+                }
+
+                case commandArgPattern(cmd, arg)
+                if cmd.equalsIgnoreCase("store") => {
+                    storeToTable(arg)
                 }
 
                 case commandArgPattern(cmd, arg) 
                 if cmd.equalsIgnoreCase("exit") => {
                     continueLoop = false
                 }
+
+                case commandArgPattern(cmd, arg) => {
+                println(s"Failed to parse command: $cmd with arguments: $arg")
+                }
+
                 case _ => {
                     println("Oops...! Option Does Not Exist!")
                 }
@@ -98,15 +110,15 @@ class Cli {
         println("Playlist: ")
         val playlistInput = StdIn.readLine()
         try {
-        if (MusicDao.addMusic(MusicPlaylist(0, titleInput, playlistInput))) {
+        if (MusicDao.addMusicPlaylist(MusicPlaylist(0, titleInput, playlistInput))) {
             println("Added to Playlist")
             } 
         } catch {
             case e: Exception => {
                 println("Something Went Wrong")
+            }
         }
     }
-}
 
     def deletePlaylist(): Unit = {
         println("Music Id: ")
@@ -116,7 +128,7 @@ class Cli {
         println("Playlist: ")
         val playlistInput = StdIn.readLine()
         try {
-            if (MusicDao.updateMusic(MusicPlaylist(musicIDInput,titleInput, playlistInput))) {
+            if (MusicDao.deleteMusic(MusicPlaylist(musicIDInput,titleInput, playlistInput))) {
                 println("Deleted from Playlist")
             }
         } catch {
@@ -144,13 +156,41 @@ class Cli {
          }
      }
 
-     def printText(arg: String) = {
+     def readText(arg: String) = {
+        var musicArray = ArrayBuffer[Array[String]]()
          try {
-             println(FileUtil.getText(arg))
+             musicArray = FileUtil.getText(arg)
+             for (rows <- musicArray) {
+             println(s"${rows(0)}|${rows(1)}|${rows(2)}")
+        } 
+            }catch {
+                case fnfe: FileNotFoundException => {
+                    println(s"File Not Found: ${fnfe.getMessage}")
+             }
+         }
+     }
+
+     def storeToTable(arg: String) = {
+         var musicArray = ArrayBuffer[Array[String]]()
+         var toTable: Boolean = false
+
+         try {
+             musicArray = FileUtil.getText(arg) 
+                for ( i<-0 until musicArray.length) {
+                    if(MusicDao.addMusic(Music(musicArray(i)(0), musicArray(i)(1), musicArray(i)(2)))) {
+                        toTable = true
+                    } else {
+                        toTable = false
+                    }
+                }
          } catch {
              case fnfe: FileNotFoundException => {
                  println(s"File Not Found: ${fnfe.getMessage}")
              }
+             
+             if (toTable == true) {
+                 println("Saved Successfully!")
+             }
          }
-     }
+    }
 }
