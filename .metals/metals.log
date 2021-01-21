@@ -2303,3 +2303,5 @@ Jan 20, 2021 6:37:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 1511
 [0m2021.01.20 18:37:33 INFO  compiling root (1 scala source)[0m
 [0m2021.01.20 18:37:36 INFO  time: compiled root in 3.17s[0m
+Jan 20, 2021 6:41:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
