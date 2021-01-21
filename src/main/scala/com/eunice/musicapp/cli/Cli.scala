@@ -8,6 +8,7 @@ import com.eunice.musicapp.dao.MusicDao
 import com.eunice.musicapp.util.FileUtil
 import java.io.FileNotFoundException
 import scala.collection.mutable.ArrayBuffer
+import java.io.IOException
 
 class Cli {
     val commandArgPattern: Regex = "(\\w+)\\s*(.*)".r
@@ -22,7 +23,7 @@ class Cli {
     def printOptions(): Unit = {
         println("*** Discover New Music! Please Enter an Option Below.")
         println("1. Go To My Library: ")
-        println("2. Search [Playlist]:  ")
+        println("2. Search [Playlist]: [Belieber], [Jpop], [Cardio]")
         println("3. Add Music: Adds Music to Playlist")
         println("4. Delete Music: Deletes Music From Playlist")
         println("5. Update Playlist: Moves Music to Another Playlist")
@@ -105,22 +106,30 @@ class Cli {
     }
 
     def addPlaylist(): Unit = {
+        var success : Boolean = false
+
         println("Music Title: ")
         val titleInput = StdIn.readLine()
         println("Playlist: ")
         val playlistInput = StdIn.readLine()
         try {
         if (MusicDao.addMusicPlaylist(MusicPlaylist(0, titleInput, playlistInput))) {
+            success = true
             println("Added to Playlist")
-            } 
+            } else {
+                success = false
+                  println("Title or Playlist Not Exist")
+            }
         } catch {
             case e: Exception => {
-                println("Something Went Wrong")
+                success = false
             }
         }
     }
 
     def deletePlaylist(): Unit = {
+        var success : Boolean = false
+
         println("Music Id: ")
         val musicIDInput = StdIn.readInt()
         println("Music Title: ")
@@ -129,16 +138,22 @@ class Cli {
         val playlistInput = StdIn.readLine()
         try {
             if (MusicDao.deleteMusic(MusicPlaylist(musicIDInput,titleInput, playlistInput))) {
+                success = true
                 println("Deleted from Playlist")
+            } else {
+                success = false
+                println("Id, Title, or Playlist Not Exist")
             }
         } catch {
             case e: Exception => {
-                println("Something Went Wrong")
+                success = false
             }
          }
     }
 
     def updatePlaylist(): Unit = {
+        var success: Boolean = false
+
         println("Music Id: ")
         val musicIDInput = StdIn.readInt()
         println("Music Title: ")
@@ -147,11 +162,16 @@ class Cli {
         val playlistInput = StdIn.readLine()
         try {
             if (MusicDao.updateMusic(MusicPlaylist(musicIDInput,titleInput, playlistInput))) {
-                println("Playlist Updated")
+                success = true
+                println("Playlist Updated")   
+            } else {
+                success = false
+                println("Id, Title, or Playlist Not Exist")
+
             }
         } catch {
             case e: Exception => {
-                println("Something Went Wrong")
+                success = false
             }
          }
      }
@@ -163,7 +183,7 @@ class Cli {
              for (rows <- musicArray) {
              println(s"${rows(0)}|${rows(1)}|${rows(2)}")
         } 
-            }catch {
+            } catch {
                 case fnfe: FileNotFoundException => {
                     println(s"File Not Found: ${fnfe.getMessage}")
              }
@@ -187,10 +207,9 @@ class Cli {
              case fnfe: FileNotFoundException => {
                  println(s"File Not Found: ${fnfe.getMessage}")
              }
-             
-             if (toTable == true) {
-                 println("Saved Successfully!")
-             }
          }
+          if (toTable==true) {
+                        println("Saved Successfully!")
+          }
     }
 }

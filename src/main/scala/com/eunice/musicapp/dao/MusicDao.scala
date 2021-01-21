@@ -87,15 +87,15 @@ import com.eunice.musicapp.util.FileUtil
         * @return moves music in the playlist to a different playlist
         */
       def updateMusic (musicPlaylist: MusicPlaylist): Boolean = {
-        val conn = ConnectionUtil.getConnection()
-        Using.Manager { use =>
+          val conn = ConnectionUtil.getConnection()
+          Using.Manager { use =>
           val stmt = use(conn.prepareStatement
           ("UPDATE music_playlist SET playlist_name = ? WHERE mp_id = ? AND music_title = ?"))
           stmt.setString(1, musicPlaylist.playlistName)
           stmt.setInt(2, musicPlaylist.mpId)
           stmt.setString(3, musicPlaylist.musicTitle)
           stmt.execute()
-          stmt.getUpdateCount() > 0
+          stmt.getUpdateCount() > 0 
         } .getOrElse(false)
       }
 
