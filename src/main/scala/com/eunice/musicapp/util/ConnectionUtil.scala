@@ -20,7 +20,11 @@ object ConnectionUtil {
       conn = DriverManager.getConnection(
         "jdbc:postgresql://localhost:5432/eunicelee?currentSchema=musicapp",
         "eunicelee",
+<<<<<<< HEAD
         "eunice1245" //changed for security reason
+=======
+        "password" //changed for security reason
+>>>>>>> 68f445bf446237761ed1aefcaf99e7ce72fb6372
       )
     }
     conn
