@@ -1,0 +1,32 @@
+create table artist (
+	artist_name text primary key
+);
+
+create table album (
+	album_name text primary key,
+	artist_name text references artist(artist_name)	
+);
+
+create table genre (
+	genre_type text primary key
+);
+
+create table playlist (
+	playlist_name text primary key
+);
+
+create table music (
+	music_title text primary key,
+	artist_name text references artist(artist_name),
+	genre_type text references genre(genre_type)
+);
+
+create table music_playlist (
+	mp_id serial primary key,
+	music_title text references music(music_title),
+	playlist_name text references playlist(playlist_name)
+);
+
+
+
+
