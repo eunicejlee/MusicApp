@@ -19,8 +19,8 @@ object ConnectionUtil {
       //hardcoding, bad practice
       conn = DriverManager.getConnection(
         "jdbc:postgresql://localhost:5432/eunicelee?currentSchema=musicapp",
-        "eunicelee",
-        "eunice1245" //changed for security reason
+        "user",
+        "password" //changed for security reason
       )
     }
     conn
